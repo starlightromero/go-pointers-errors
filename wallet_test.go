@@ -11,7 +11,7 @@ func TestWallet(t *testing.T) {
 			t.Errorf("got %s want %s", got, want)
 		}
 	}
-	
+
 	assetNoError := func(t testing.TB, got error) {
 		t.Helper()
 		if got != nil {
